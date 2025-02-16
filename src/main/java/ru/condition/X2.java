@@ -2,7 +2,7 @@ package ru.condition;
 
 public class X2 {
     public static int calc(int a, int b, int c, int x) {
-        return a * x * x + b * x + c;
+        return a * x * x + x * b + c;
     }
 
     public static void main(String[] args) {
@@ -21,7 +21,6 @@ public class X2 {
         System.out.println(rsl);
 
         a = 0;
-        b = 1;
         c = 1;
         x = 1;
         rsl = X2.calc(a, b, c, x);

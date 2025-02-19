@@ -9,7 +9,7 @@ public class Game {
             System.out.println("Start - tanks");
         }
         if ("tetris".equals(name)) { /* Сравнить переменную name с "tetris" */
-            System.out.println("Start - tetris");
+            System.out.println("Start - tetris.");
         }
     }
 
